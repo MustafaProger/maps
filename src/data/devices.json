@@ -1,0 +1,78 @@
+[
+  {
+    "id": "d001",
+    "name": "Main Gateway",
+    "lat": 51.505,
+    "lon": -0.09,
+    "model": "advanced",
+    "status": "on",
+    "children": [
+      {
+        "id": "d001-1",
+        "name": "Sensor 1",
+        "lat": 51.503,
+        "lon": -0.092,
+        "model": "basic",
+        "status": "on"
+      },
+      {
+        "id": "d001-2",
+        "name": "Sensor 2",
+        "lat": 51.506,
+        "lon": -0.089,
+        "model": "basic",
+        "status": "off"
+      }
+    ]
+  },
+  {
+    "id": "d002",
+    "name": "Secondary Gateway",
+    "lat": 51.51,
+    "lon": -0.1,
+    "model": "advanced",
+    "status": "on",
+    "children": [
+      {
+        "id": "d002-1",
+        "name": "Monitoring Unit",
+        "lat": 51.511,
+        "lon": -0.102,
+        "model": "basic",
+        "status": "on"
+      }
+    ]
+  },
+  {
+    "id": "d003",
+    "name": "Command Center",
+    "lat": 51.515,
+    "lon": -0.095,
+    "model": "special",
+    "status": "on"
+  },
+  {
+    "id": "d004",
+    "name": "Backup System",
+    "lat": 51.5,
+    "lon": -0.105,
+    "model": "special",
+    "status": "off"
+  },
+  {
+    "id": "d005",
+    "name": "Mobile Unit",
+    "lat": 51.508,
+    "lon": -0.11,
+    "model": "basic",
+    "status": "on"
+  },
+  {
+    "id": "d006",
+    "name": "Draggable Device",
+    "lat": 51.512,
+    "lon": -0.085,
+    "model": "advanced",
+    "status": "on"
+  }
+]
